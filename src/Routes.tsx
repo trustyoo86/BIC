@@ -2,8 +2,8 @@ import * as React from 'react';
 import { NativeRouter as Router, Route, Switch } from 'react-router-native';
 
 // containers
-import Home from 'containers/Home';
-import Map from 'containers/Map';
+import Home from './containers/Home';
+import Map from './containers/Map';
 
 const Routes = () => {
   return (
