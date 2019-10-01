@@ -6,7 +6,9 @@ const Map = () => {
   return (
     <View style={styles.container}>
       <Text>Map Page</Text>
-      <Link to='/'>Move to Home</Link>
+      <Link to='/'>
+        <Text>Move to Home</Text>
+      </Link>
     </View>
   );
 };
@@ -15,6 +17,8 @@ const styles = {
   container: {
     flex: 1,
     backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 };
 

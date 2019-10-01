@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
-      <Link to='/map'>Move to Map</Link>
+      <Link to='/map'>
+        <Text>Move to Map</Text>
+      </Link>
     </View>
   );
 };
