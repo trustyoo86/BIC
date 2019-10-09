@@ -9,8 +9,6 @@
   },
   "dependencies": {
     "@shoutem/ui": "^1.0.1",
-    "@types/react-redux": "^7.1.4",
-    "@types/redux": "^3.6.0",
     "expo": "^35.0.0",
     "expo-font": "^7.0.0",
     "react": "16.8.3",
@@ -25,7 +23,10 @@
   "devDependencies": {
     "@types/react": "^16.8.23",
     "@types/react-native": "^0.57.65",
+    "@types/react-native-maps": "^0.24.0",
+    "@types/react-redux": "^7.1.4",
     "@types/react-router-native": "^5.1.0",
+    "@types/redux": "^3.6.0",
     "babel-preset-expo": "^7.0.0",
     "typescript": "^3.4.5"
   },
