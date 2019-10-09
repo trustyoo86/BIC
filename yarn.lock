@@ -984,6 +984,22 @@
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.5.3.tgz#1c3b71b091eaeaf5924538006b7f70603ce63d38"
   integrity sha512-Jugo5V/1bS0fRhy2z8+cUAHEyWOATaz4rbyLVvcFs7+dXp5HfwpEwzF1Q11bB10ApUqHf+yTauxI0UXQDwGrbA==
 
+"@types/react-native-maps@^0.24.0":
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/@types/react-native-maps/-/react-native-maps-0.24.0.tgz#20ce7f8971cb34e788f5d8998ae9ed01e524028d"
+  integrity sha512-72JK63rvQ2+KOskjVFROR29JPFGPG7buWw4mNbqLtfq81DIBpFFLVjytGC3YYVbbYF/s/P7CohrLhEwUZsuDhQ==
+  dependencies:
+    "@types/react" "*"
+    "@types/react-native" "*"
+
+"@types/react-native@*":
+  version "0.60.19"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.60.19.tgz#4d58516f9e981c3f477ad48727331e31a0792aae"
+  integrity sha512-1Qq1EQn/bi7dnsdrZJu0f9MK18KZrEmLGMfw3V9Im5As4uwFUTCIkD4LnFJkfQtRvtJQN1cOQri6MTqT7d9fkg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/react" "*"
+
 "@types/react-native@^0.57.65":
   version "0.57.65"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.65.tgz#9da4773aaa95924bce42a54a5c19cfd8ffd5022b"
