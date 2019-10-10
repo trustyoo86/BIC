@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { Link } from 'react-router-native';
-import { NavigationBar, ImageBackground, Title, Icon } from '@shoutem/ui';
+import { NavigationBar, ImageBackground, Title, Icon, Card, Image, View, Subtitle, Caption } from '@shoutem/ui';
 
 const Home = () => {
   return (
@@ -11,9 +11,19 @@ const Home = () => {
         centerComponent={<Title>메인</Title>}
       />
       <View style={styles.container}>
-        <Link to='/map'>
+        <Card>
+          <Image
+            styleName='large-banner'
+            source={{uri: 'https://shoutem.github.io/img/ui-toolkit/examples/image-10.png'}}
+          />
+          <View styleName="content">
+            <Subtitle>Choosing The Right Boutique Hotel For You</Subtitle>
+            <Caption>21 hours ago</Caption>
+          </View>
+        </Card>
+        {/* <Link to='/map'>
           <Text>맵으로 이동</Text>
-        </Link>
+        </Link> */}
       </View>
     </React.Fragment>
   );
